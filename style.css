@@ -1,0 +1,121 @@
+body{
+    background-image: url("./img/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.tamañoLogo{
+    width: 500px;
+    height: 500px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+#menu{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    width: 100px;
+    color: lightseagreen;
+}
+
+.redes{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tamañoRed{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+#final{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 50px;    
+    color: blue;
+}
+
+.derechos{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 0, 0);
+    width: 1950px;   
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+
+}
+
+.tamañoLogo{
+    width: 500px;
+    height: 500px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 150px;
+    width: 1880px;
+    color: darkred;
+}
+
+h2{
+    display: flex;
+    flex-direction: column;
+    font-size: 50pt;
+    color: rgb(50, 134, 74);
+}
+
+.texto{
+    font-size: 30px;
+    color: beige;
+}
+
+p{
+    font-size: 30px;
+}
+
+.pelicula{
+    display: flex;
+    justify-content: baseline;
+}
+
+.nombre{
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.poster{
+    width: 250px;
+    height: 250px;
+}
+
+.sinopsis{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.reseña{
+    display: flex;
+    justify-content: flex-start;    
+    gap: 100px;
+
+}
+
+.tamañoCritica{
+    width: 300px;
+    height: 200px;
+}
